@@ -10,7 +10,7 @@
     --font-ubuntu: 'Ubuntu', sans-serif;
     
     /* colors */
-    --bg-color: red;
+    --bg-color: hsl(0, 5%, 92%);
     --Light-red: hsl(356, 100%, 66%);
     --Very-light-red: hsl(355, 100%, 74%);
     --Very-dark-blue: hsl(208, 49%, 24%);
