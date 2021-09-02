@@ -1,6 +1,5 @@
 'use strict'
 const mq = window.matchMedia("(min-width: 1000px)")
-const imgFirst = document.querySelectorAll('.future__img-mobile')
 
 
 const linkDesktop = document.querySelectorAll('.link__desktop')
@@ -43,24 +42,6 @@ connectArea.addEventListener('mouseout', mouseout)
 
 productArea.addEventListener('mouseover', mouseover)
 productArea.addEventListener('mouseout', mouseout)
-
-
-if(mq.matches) {
-    imgFirst[0].src = '../images/illustration-editor-desktop.svg'
-    imgFirst[1].src = '../images/illustration-laptop-desktop.svg'
-}
-window.addEventListener('resize', ()=>{
-    if(mq.matches) {
-
-        imgFirst[0].src = '../images/illustration-editor-desktop.svg'
-        imgFirst[1].src = '../images/illustration-laptop-desktop.svg'
-    }
-    else{
-        imgFirst[0].src = '../images/illustration-editor-mobile.svg'
-        imgFirst[1].src = '../images/illustration-laptop-mobile.svg'
-    }
-})
-
 
 
 linkDesktop.forEach(element => {
