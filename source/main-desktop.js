@@ -1,7 +1,7 @@
 'use strict'
 const mq = window.matchMedia("(min-width: 1000px)")
-const imgFirst = document.querySelector('.change1')
-const imgsecond = document.querySelector('.change2')
+const imgFirst = document.querySelectorAll('.future__img-mobile')
+
 
 const linkDesktop = document.querySelectorAll('.link__desktop')
 let prevMouseOver
@@ -46,17 +46,18 @@ productArea.addEventListener('mouseout', mouseout)
 
 
 if(mq.matches) {
-    imgFirst.src = '../images/illustration-editor-desktop.svg'
-    imgsecond.src = '../images/illustration-laptop-desktop.svg'
+    imgFirst[0].src = '../images/illustration-editor-desktop.svg'
+    imgFirst[1].src = '../images/illustration-laptop-desktop.svg'
 }
 window.addEventListener('resize', ()=>{
     if(mq.matches) {
-        imgFirst.src = '../images/illustration-editor-desktop.svg'
-        imgsecond.src = '../images/illustration-laptop-desktop.svg'
+
+        imgFirst[0].src = '../images/illustration-editor-desktop.svg'
+        imgFirst[1].src = '../images/illustration-laptop-desktop.svg'
     }
     else{
-        imgFirst.src = '../images/illustration-editor-mobile.svg'
-        imgsecond.src = '../images/illustration-laptop-mobile.svg'
+        imgFirst[0].src = '../images/illustration-editor-mobile.svg'
+        imgFirst[1].src = '../images/illustration-laptop-mobile.svg'
     }
 })
 
