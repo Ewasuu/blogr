@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- styles -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+  <main>
+    <!-- header -->
+    <header class="main__header">
+      <nav class="main__nav">
+        <div class="container__title">
+          <img class="logo" src="images/logo.svg" alt="logo">
+          <div class="dropdown__product">
+            <button name="product" href="#" class="link__desktop">Product <img class="icon__arrow-product" src="images/icon-arrow-light.svg" alt="arrow-icon"></button>
+            <div class="desktop__section-product">
+              <a href="#" class="extra__link-desktop">Overview</a>
+              <a href="#" class="extra__link-desktop">Pricing</a>
+              <a href="#" class="extra__link-desktop">Marketplace</a>
+              <a href="#" class="extra__link-desktop">Features</a>
+              <a href="#" class="extra__link-desktop">Integrations</a>
+            </div>
+          </div>
+          <div class="dropdown__company">
+            <button name="company" href="#" class="link__desktop">Company <img class="icon__arrow-company" src="images/icon-arrow-light.svg" alt="arrow-icon"></button>
+            <div class="desktop__section-company">
+              <a href="#" class="extra__link-desktop">About</a>
+              <a href="#" class="extra__link-desktop">Team</a>
+              <a href="#" class="extra__link-desktop">Blog</a>
+              <a href="#" class="extra__link-desktop">Careers</a>
+            </div>
+          </div>
+          <div class="dropdown__connect">
+            <button name="connect" href="#" class="link__desktop">Connect <img class="icon__arrow-connect" src="images/icon-arrow-light.svg" alt="arrow-icon"></button>
+            <div class="desktop__section-connect">
+              <a href="#" class="extra__link-desktop">Contact</a>
+              <a href="#" class="extra__link-desktop">Newsletter</a>
+              <a href="#" class="extra__link-desktop">Linkedin</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav__btn-desktop">
+          <button class="login__btn-desktop">
+            Login
+          </button>
+          <button class="sign__btn-desktop">
+            Sign Up
+          </button>
+        </div>
+        <button id="btn" class="nav__btn"><img id="bImage" src="images/icon-hamburger.svg" alt="btn"></button>
+
+      </nav>
+      <div class="links__mobile-section">
+        <button name="product" href="#" class="link__mobile">Product <img class="icon__arrow-product" src="images/icon-arrow-dark.svg" alt="arrow-icon"></button>
+        <div class="extra__section-product">
+          <a href="#" class="extra__link">Overview</a>
+          <a href="#" class="extra__link">Pricing</a>
+          <a href="#" class="extra__link">Marketplace</a>
+          <a href="#" class="extra__link">Features</a>
+          <a href="#" class="extra__link">Integrations</a>
+        </div>
+        <button name="company" href="#" class="link__mobile">Company <img class="icon__arrow-company" src="images/icon-arrow-dark.svg" alt="arrow-icon"></button>
+        <div class="extra__section-company">
+          <a href="#" class="extra__link">About</a>
+          <a href="#" class="extra__link">Team</a>
+          <a href="#" class="extra__link">Blog</a>
+          <a href="#" class="extra__link">Careers</a>
+        </div>
+        <button name="connect" href="#" class="link__mobile">Connect <img class="icon__arrow-connect" src="images/icon-arrow-dark.svg" alt="arrow-icon"></button>
+        <div class="extra__section-connect">
+          <a href="#" class="extra__link">Contact</a>
+          <a href="#" class="extra__link">Newsletter</a>
+          <a href="#" class="extra__link">Linkedin</a>
+        </div>
+        <div class="login__section">
+          <button class="login__btn">
+            Login
+          </button>
+          <button class="sign__btn" >
+            Sign Up
+          </button>
+        </div>
+      </div>
+      <div class="hero__banner">
+        <h2 class="hero__banner-title">A modern publishing platform</h2>
+        <P class="hero__banner-description">
+          Grow your audience and built your online brand
+        </P>
+        <div class="hero__banner-btns">
+          <button class="btn__one">Start For Free</button>
+          <button class="btn__two" >Learn More</button>
+        </div>
+      </div>
+    </header>
+    <!-- 'Designed for the future' data -->
+    <section class="future">
+      
+      <div class="wrapper__one">
+        <h2 class="future__title-main">
+          Designed for the future
+        </h2>
+        <div class="future__section-first area__one">
+          <img class="future__img-mobile change1" src="images/illustration-editor-mobile.svg" alt="">
+        </div>
+        <div class="container">
+          <div class="future__section-second">
+            <h2 class="future__title">
+              Introducing an extensible editor
+            </h2>
+            <p class="section__description">
+              Blogr features an exceedingly intuitive
+              interface which lets you focus on one
+              thing: creating content. The editor
+              supports management of multiple blogs
+              and allows easy manipulation of embeds
+              such as images, videos, and Markdown.
+              Extensibility with plugins and themes
+              provide easy ways to add functionality
+              or change the looks of ablog.
+            </p>
+          </div>
+          <div class="future__section-third">
+            <h2 class="future__title">
+              Robust content management
+            </h2>
+            <p class="section__description">
+              felxible content management enables
+              users to easily move through posts.
+              increase the usability of your blog
+              by adding customized categories, section,
+              format, or flow. With this functionality,
+              you're in full control.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="future__two">
+      <div class="section__two-data">
+        <h2 class="future__title other__title">
+          State of the Art Infrastructure
+        </h2>
+        <p class="section__description other__description">
+          With reliablity and speed in mind,
+          worldwide data centers provide the 
+          backbone for ultra-fast connectivity.
+          This ensures your site will load instantly,
+          no matter where your readers are, keeping
+          yout site competitive.
+        </p>
+      </div>
+    </section>
+    <section class="other__data future">
+      <div class="wrapper__two">
+        <div class="area__two"><img class="future__img-mobile change2" src="images/illustration-laptop-mobile.svg" alt="laptop"></div>
+        <div class="container2">
+          <div class="future__section-ford">
+            <h2 class="future__title">
+              Free, open, simple
+            </h2>
+            <p class="section__description">
+              Blogr is a free and open source application
+               backed by a large community of helpful developers.
+              It supports features such as code syntax highlighting,
+              RSS feeds, social media integration, third-party commenting
+              tools, and works seamlessly with Google Analitycs.
+              The architecture is clean and is relatively easy to learn.
+            </p>
+          </div>
+          <div class="future__section-fifth">
+            <h2 class="future__title">
+              Poweful tooling
+            </h2>
+            <p class="section__description">
+              Batteries included. We built a simple and
+              straightforward CLI tool that makes customization
+              and deployment a breeze, but capable of producing
+              even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main__footer">
+      <img class="footer__logo" src="images/logo.svg" alt="">
+      <div class="footer__data">
+        <h3 class="data__title">
+          Product
+        </h3>
+        <a href="#" class="data__item">Overview</a >
+        <a href="#" class="data__item">Pricing</a>
+        <a href="#" class="data__item">Marketplace</a>
+        <a href="#" class="data__item">Features</a>
+        <a href="#" class="data__item">Integrations</a>
+      </div>
+      <div class="footer__data">
+        <h3 class="data__title">
+          Company
+        </h3>
+        <a href="#" class="data__item">About</a>
+        <a href="#" class="data__item">Team</a>
+        <a href="#" class="data__item">Blog</a>
+        <a href="#" class="data__item">Careers</a>
+      </div>
+      <div class="footer__data">
+        <h3 class="data__title">
+          Connect
+        </h3>
+        <a href="#" class="data__item">Contact</a>
+        <a href="#" class="data__item">Newsletter</a>
+        <a href="#" class="data__item">Linkedin</a>
+      </div>
+      
+    </footer>
+  </main>
+  <script src="source/main-mobile.js"></script>
+  <script src="source/main-desktop.js"></script>
+</body>
+</html>
