@@ -11,7 +11,7 @@ btn.addEventListener('click' ,()=>{
         btn.style.animation = 'change 1s linear'
 
         setTimeout(()=>{
-            bImg.src = '../images/icon-close.svg'
+            bImg.src = 'images/icon-close.svg'
         }, 1000)
 
         menu.style.display = 'flex'
@@ -22,7 +22,7 @@ btn.addEventListener('click' ,()=>{
         menu.style.animation = 'cerrar 1.3s'
         btn.style.animation = 'changeback 1s linear'
         setTimeout(()=>{
-            bImg.src = '../images/icon-hamburger.svg'
+            bImg.src = 'images/icon-hamburger.svg'
         }, 1000)
         setTimeout(()=>{
             menu.style.display = 'none'
